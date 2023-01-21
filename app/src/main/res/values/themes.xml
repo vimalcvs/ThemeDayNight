@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Platform.V21.Theme.MaterialFiles" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimaryDark">@color/system_window_scrim_compat</item>
+    </style>
+
+    <style name="Platform.Theme.MaterialFiles" parent="Platform.V21.Theme.MaterialFiles" />
+
+    <style name="Base.Theme.MaterialFiles" parent="Platform.Theme.MaterialFiles">
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialFiles.ActionBar</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.MaterialFiles.ActionBarPopup</item>
+        <item name="android:colorBackground">?colorSurface</item>
+        <item name="dropDownListViewStyle">@style/Widget.MaterialFiles.ListView.DropDown</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">?colorPrimary</item>
+        <item name="colorSecondary">?colorPrimary</item>
+        <item name="colorOnSecondary">?colorOnPrimary</item>
+        <item name="colorSecondaryVariant">?colorSecondary</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialFiles.MediumComponent</item>
+        <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="materialCardViewStyle">@style/Widget.MaterialFiles.CardView</item>
+        <item name="navigationViewStyle">@style/Widget.MaterialFiles.NavigationView</item>
+        <item name="minTouchTargetSize">0dp</item>
+        <item name="textInputStyle">?textInputOutlinedStyle</item>
+        <item name="colorAppBarSurface">?colorSurface</item>
+
+    </style>
+
+
+    <style name="Theme.MaterialFiles" parent="Base.Theme.MaterialFiles" />
+
+</resources>

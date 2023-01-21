@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Material Files</string>
+    <string name="copy">Copy</string>
+    <string name="activity_not_found">No application found to handle this action</string>
+    <string name="settings_default_directory_title">Default folder</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="lorem_ipsum" translatable="false">lorem_ipsum</string>
+    <string name="previous" translatable="false">previous</string>
+</resources>
